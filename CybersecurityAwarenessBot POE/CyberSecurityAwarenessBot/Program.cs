@@ -38,8 +38,18 @@ namespace CyberSecurityAwarenessBot
                 Console.WriteLine("[Error] Unable to play voice greeting: " + e.Message);
             }
         }
+        static void DisplayAsciiArt()
+        {
+            Console.ForegroundColor = ConsoleColor.Cyan;
+            Console.WriteLine("\n=============================");
+            Console.WriteLine("   CYBERSECURITY AWARENESS   ");
+            Console.WriteLine("         BOT ONLINE         ");
+            Console.WriteLine("=============================");
+            Console.ResetColor();
+        }
     }
 }
+
 
 
 
